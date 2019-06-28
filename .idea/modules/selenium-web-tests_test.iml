@@ -4,7 +4,10 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../selenium-web-tests/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../selenium-web-tests/src/test" />
+    <content url="file://$MODULE_DIR$/../../selenium-web-tests/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../selenium-web-tests/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../selenium-web-tests/src/test/resources" type="java-test-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="selenium-web-tests_main" />

@@ -10,6 +10,8 @@
       <module name="selenium_test" target="1.8" />
       <module name="Telran-selenium_main" target="1.8" />
       <module name="Telran-selenium_test" target="1.8" />
+      <module name="trello-web_main" target="1.8" />
+      <module name="trello-web_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
