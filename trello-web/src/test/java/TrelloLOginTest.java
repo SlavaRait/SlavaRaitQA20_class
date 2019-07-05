@@ -7,36 +7,25 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TrelloLOginTest
+public class TrelloLOginTest extends  TestBase
 {
-    WebDriver wd;
 
-    @BeforeMethod
-    public void setUp()
-    {
-        wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wd.get("https://trello.com");
-    }
     @Test
-    public void loginTest()
-    {
+    public void loginTest() throws InterruptedException {
         //click login button
-        wd.findElement(By.cssSelector("href=\'/login\'")).click();
+        wd.findElement(By.xpath("//a[@class='btn btn-sm btn-link text-white']")).click();
+        Thread.sleep(10000);
         //type email
-        wd.findElement(By.id("user")).sendKeys("slavarait@gmail.com");
+        wd.findElement(By.name("user")).sendKeys("slavarait@gmail.com");
+        Thread.sleep(10000);
         //type password
         wd.findElement(By.name("password")).sendKeys("sr232323");
         //confirm login
+        Thread.sleep(10000);
         wd.findElement(By.id("login")).click();
+        Thread.sleep(10000);
 
 
     }
 
-    @AfterMethod
-    public void teardown()
-    {
-        wd.quit();
-    }
-
- }
+}
