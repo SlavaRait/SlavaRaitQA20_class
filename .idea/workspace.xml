@@ -75,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
+            <state relative-caret-position="102">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,16 +96,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/TrelloLOginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/BoardCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -138,10 +138,10 @@
         <option value="$PROJECT_DIR$/repeat_tests/src/test/java/com/telRan/qa20/OpenGoogleTest.java" />
         <option value="$PROJECT_DIR$/trello-web/build.gradle" />
         <option value="$PROJECT_DIR$/trello-web/src/test/java/TrelloKatalon.java" />
-        <option value="$PROJECT_DIR$/trello-web/src/test/java/TrelloLOginTest.java" />
         <option value="$PROJECT_DIR$/trello-web/src/test/java/BoardCreationTest.java" />
         <option value="$PROJECT_DIR$/trello-web/src/test/java/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/trello-web/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/trello-web/src/test/java/TrelloLOginTest.java" />
       </list>
     </option>
   </component>
@@ -151,7 +151,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -231,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BoardCreationTest.testBoardCreationFromHeader">
+  <component name="RunManager" selected="TestNG.TrelloLOginTest">
     <configuration name="BoardCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-web_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -255,23 +255,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrelloKatalon (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-web_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrelloKatalon" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrelloKatalon.testTrelloKatalon" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-web_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrelloKatalon" />
       <option name="METHOD_NAME" value="testTrelloKatalon" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrelloLOginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-web_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrelloLOginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -292,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TrelloLOginTest" />
         <item itemvalue="TestNG.BoardCreationTest.testBoardCreationFromHeader" />
         <item itemvalue="TestNG.BoardCreationTest" />
         <item itemvalue="TestNG.TrelloLOginTest.loginTest" />
         <item itemvalue="TestNG.TrelloKatalon.testTrelloKatalon" />
-        <item itemvalue="TestNG.TrelloKatalon (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -314,9 +314,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardCreationTest - 2019.07.10 at 14h 24m 52s.xml">
-      <configuration name="BoardCreationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BoardCreationTest_testBoardCreationFromHeader - 2019.07.10 at 14h 26m 33s.xml">
       <configuration name="BoardCreationTest.testBoardCreationFromHeader" configurationId="TestNG" />
     </history-entry>
@@ -344,9 +341,12 @@
     <history-entry file="BoardCreationTest_testBoardCreationFromHeader - 2019.07.10 at 14h 54m 37s.xml">
       <configuration name="BoardCreationTest.testBoardCreationFromHeader" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TrelloLOginTest - 2019.07.12 at 10h 20m 28s.xml">
+      <configuration name="TrelloLOginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.13892618" />
@@ -358,7 +358,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597314" visible="true" weight="0.30169973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597314" visible="true" weight="0.30169973" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,6 +444,13 @@
     <entry file="file://$USER_HOME$/Desktop/qa/webinar_2019_07_10.rar">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/TrelloLOginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -458,7 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
+        <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -485,13 +492,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-web/src/test/java/TrelloLOginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
